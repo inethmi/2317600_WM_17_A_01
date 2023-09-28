@@ -1,0 +1,451 @@
+
+
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  .Flex-Container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:52vw;
+    height:614px ;
+    position:fixed;
+    left:21vw;
+    top:5vh;
+  
+  }
+  
+  .Flex-item1{
+    width:28vw;
+    height:624px;
+    
+  }
+  
+  .Flex-item2{
+    border:1px solid rgb(213, 212, 212);
+    width:23vw;
+    height:425px;
+    padding:3px;
+    margin-left: 10px;
+   
+    
+  
+  }
+  
+  .Flex-item1 > #img1{
+   
+    border:5px solid #000000; 
+    position:relative;
+    left:66px;
+    top:10px;
+    background-color: black;
+    border-radius: 30px;
+    width:18vw;
+    height:570px;
+  
+  }
+  
+  .Flex-item1 > #img2{
+   
+    border:5px solid #000000; 
+    position:relative;
+    left:128px;
+    bottom:545px;
+    background-color: black;
+    border-radius: 30px;
+    width:18vw;
+    height:570px;
+    
+  
+  }
+  
+  .Flex-item2 > #logo{
+    width:190px;
+    height:76px;
+    position:relative;
+    left:75px;
+    top:35px;
+  }
+  
+  #login-form #username{
+    width:266.8px;
+    height:26px;
+    border:0.8px solid rgb(213, 212, 212);
+    position:relative;
+    left:35px;
+    top:15px;
+    padding:5px;
+    background-color: #fafafa;
+    margin-bottom:5px;
+    font-size:13px ;
+   
+    
+  }
+  
+  #login-form #password{
+    width:266.8px;
+    height:26px;
+    border:0.8px solid rgb(213, 212, 212);
+    position:relative;
+    left:35px;
+    top:15px;
+    padding:5px;
+    background-color: #fafafa;
+    margin-bottom:8px;
+    font-size:13px ;
+    
+    
+  }
+  
+  #login-form #button{
+    font-size: 14px;
+    text-shadow:none;
+    text-align:center;
+    border-radius:8px;
+    background-color: #4cb5f9;
+    color:white;
+    border:1px solid #4cb5f9;
+    width:280px;
+    height:33px;
+    position: relative;
+    top:25px;
+    left:35px;
+    padding:5px;
+  }
+  
+  #hr1{
+    width:100px;
+    position:relative;
+    right:80px;
+    top:41px;
+  
+    
+  }
+  
+  #hr2{
+    width:100px;
+    position:relative;
+    left:80px;
+   
+    
+    
+    
+  }
+  
+  h3{
+    font-size: 12px;
+    text-align: center;
+    position:relative;
+    top:20px;
+    color:#737373;
+    
+  }
+  
+  #orSeparator{
+    position:relative;
+    top:10px;
+  }
+  
+  #fblogo{
+    width:25px;
+    height:25px;
+    position:relative;;
+    top:9px;
+    right:9px;
+  }
+  
+  #logfb{
+    text-align: center;
+    position:relative;
+    top:25px;
+  }
+  
+  #fblogin{
+    text-decoration: none;
+    color:#385788;
+    font-size:15px;
+  }
+  
+  #forgotPw{
+    text-align: center;
+    position:relative;
+    top:45px;
+  }
+  
+  #pw{
+    text-decoration: none;
+    color:#4f4e4e;
+    font-size: 14px;
+    font-weight: 2;
+  
+  
+  }
+  
+  .signup{
+    border:1px solid rgb(213, 212, 212);
+    width:23vw;
+    height:60px;
+    padding:3px;
+    margin-left: 10px;
+    position:relative;
+    right:14px;
+    top:80px;
+    text-align: center;
+    
+  }
+  
+  .signup > p{
+    font-weight: 2;
+  }
+  
+  #signup{
+    text-decoration: none;
+    color:#339af7;
+    font-weight: 8;
+    
+  }
+  
+  #link{
+    width:23vw;
+    height:60px;
+    padding:3px;
+    margin-left: 10px;
+    position:relative;
+    right:14px;
+    top:80px;
+    text-align: center;
+    font-weight:2;
+  }
+  
+  #btn1{
+    width:130px;
+    height:40px;
+    margin-right: 8px;
+  }
+  
+  #btn2{
+    width:130px;
+    height:40px;
+    margin-left: 8px;
+  }
+  
+  #getapp{
+    text-align: center;
+    position: relative;
+    top:70px;
+  }
+
+
+
+
+
+  @media screen and (max-width : 1024px) {
+   .Flex-item1{
+
+      display:none;
+   }
+    
+   .Flex-Container{
+
+    display:flex;
+    width:80vw;
+    height:614px ;
+    justify-content:center;
+    position:fixed;
+    right:500px;
+    left:30px;
+  }
+
+   .Flex-item2{
+    border:1px solid rgb(213, 212, 212);
+    width:70vw;
+    height:425px;
+    padding:3px;
+
+   }
+
+   .Flex-item2 > #logo{
+    width:190px;
+    height:76px;
+    position:relative;
+    left:15px;
+    top:35px;
+  }
+    
+  #login-form #username{
+    width:200px;
+    height:26px;
+    border:0.8px solid rgb(213, 212, 212);
+    position:relative;
+    left:5px;
+    top:15px;
+    padding:5px;
+    background-color: #fafafa;
+    margin-bottom:5px;
+    font-size:10px ;
+   
+    
+  }
+  
+  #login-form #password{
+    width:200px;
+    height:26px;
+    border:0.8px solid rgb(213, 212, 212);
+    position:relative;
+    left:5px;
+    top:15px;
+    padding:5px;
+    background-color: #fafafa;
+    margin-bottom:8px;
+    font-size:10px ;
+    
+    
+  }
+  
+  #login-form #button{
+    font-size: 14px;
+    text-shadow:none;
+    text-align:center;
+    border-radius:8px;
+    background-color: #4cb5f9;
+    color:white;
+    border:1px solid #4cb5f9;
+    width:200px;
+    height:33px;
+    position: relative;
+    top:25px;
+    left:5px;
+    padding:5px;
+  }
+
+  #hr1{
+    width:60px;
+    position:relative;
+    right:80px;
+    top:35px;
+  
+    
+  }
+  
+  #hr2{
+    width:60px;
+    position:relative;
+    left:80px;
+   
+    
+    
+    
+  }
+  
+  h3{
+    font-size: 9px;
+    text-align: center;
+    position:relative;
+    top:20px;
+    color:#737373;
+    
+  }
+  
+  #orSeparator{
+    position:relative;
+    top:10px;
+  }
+  
+  #fblogo{
+    width:20px;
+    height:20px;
+    position:relative;;
+    top:9px;
+    right:9px;
+  }
+  
+  #logfb{
+    text-align: center;
+    position:relative;
+    top:25px;
+    
+  }
+  
+  #fblogin{
+    text-decoration: none;
+    color:#385788;
+    font-size:10px;
+  }
+  
+  #forgotPw{
+    text-align: center;
+    position:relative;
+    top:45px;
+  }
+  
+  #pw{
+    text-decoration: none;
+    color:#4f4e4e;
+    font-size: 9px;
+    font-weight: 2;
+  
+  
+  }
+  
+  .signup{
+    border:1px solid rgb(213, 212, 212);
+    width:71.5vw;
+    height:40px;
+    padding:1px;
+    position:relative;
+    right:14px;
+    top:80px;
+    text-align: center;
+    
+  }
+  
+  .signup > p{
+    font-weight: 2;
+    font-size: 10px;
+  }
+  
+  #signup{
+    text-decoration: none;
+    color:#339af7;
+    font-weight: 8;
+    
+  }
+  
+  #link{
+    width:23vw;
+    height:60px;
+    padding:3px;
+    margin-left: 10px;
+    position:relative;
+    left:50px;
+    top:80px;
+    text-align: center;
+    font-weight:2;
+    font-size: 11px;
+  }
+  
+  #btn1{
+    width:80px;
+    height:35px;
+    margin-right: 8px;
+  }
+  
+  #btn2{
+    width:80px;
+    height:35px;
+    margin-left: 8px;
+  }
+  
+  #getapp{
+    text-align: center;
+    position: relative;
+    top:70px;
+  }
+
+}
+
+
